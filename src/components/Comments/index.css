@@ -1,0 +1,92 @@
+/* Write your CSS here */
+.container {
+  height: 100vh;
+  padding: 20px;
+}
+.add-comment-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  margin: 10px;
+}
+
+.top-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  margin: 10px;
+  margin-right: 40px;
+  order: 1;
+}
+.image {
+  width: 70%;
+  margin: 20px;
+  margin-left: 50px;
+  height: 38vh;
+  order: 0;
+}
+@media (min-width: 768px) {
+  .add-comment-container {
+    flex-direction: row;
+  }
+  .image {
+    order: 1;
+  }
+  .top-container {
+    order: 0;
+  }
+}
+.heading {
+  font-family: 'Roboto';
+  font-weight: bold;
+  margin-left: 20px;
+}
+.para {
+  font-family: 'Roboto';
+  font-weight: bold;
+  color: #1e293b;
+}
+input {
+  height: 30px;
+  border-radius: 5px;
+  border: 2px solid #cbd2d9;
+  margin-bottom: 10px;
+  font-weight: bold;
+}
+textarea {
+  border-radius: 5px;
+  border: 2px solid #cbd2d9;
+  margin-bottom: 10px;
+  font-weight: bold;
+  font-family: 'Roboto';
+}
+.button {
+  background-color: #0284c7;
+  color: white;
+  padding: 10px;
+  border-radius: 7px;
+  border: 0px;
+  width: 130px;
+}
+hr {
+  height: 3px;
+}
+.count {
+  background-color: #0284c7;
+  padding: 5px;
+  width: 30px;
+  text-align: center;
+  color: white;
+  border-radius: 5px;
+}
+.count-para {
+  color: #475569;
+  font-weight: bold;
+  font-family: 'Roboto';
+  margin-left: 10px;
+  margin-top: 20px;
+}
+.count-container {
+  display: flex;
+  margin-left: 20px;
+}
